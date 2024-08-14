@@ -1,4 +1,10 @@
 Retaliation Mod Diary
 
-8/13/2024
+8/13/2024 (original)
 Add new Terraria class focused on recieving damage to increase your damage output. Specific weapons are still in development, but for now I will develop a debug armor set that will store the amount of damage taken by a player.
+
+8/13/2024 (edited)
+I plan to add a new Terraria class focused on recieving damage to increase your damage output. Specific weapons are still in development, but for now I will develop a debug armor set that will store the amount of damage taken by a player. I created a class within the main mod folder that can store damage statistics (damage taken, potential damage taken, and NPC index). I also created a ModPlayer that updates the damage statistics whenever the player recieves damage from any source.
+
+8/14/2024
+I have organized and added comments to the Retaliation and PlayerDamageTracker files. I intend to track when the player dies, strikes an NPC, and how many frames have passed since they were last damaged. I expect that last point to be the most difficult. The Retaliation file itself will not process any of this data, just modify and store it. Armor and weapons associated with the retaliation damage class will handle calculations based on their individual properties.
