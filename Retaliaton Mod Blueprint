@@ -1,6 +1,7 @@
 Retaliation Mod Blueprint
 
-1) Create method to track any damage taken by a player and its source
+1) √ Create method to track any damage taken by a player and its source
 2) Apply some logic to damage tracking (ex. removing all data after spawn/respawn; storing damage and its source in key value pairs; track if damage should be reflected)
 3) Add debug armor set that gives the retaliation buff
 4) Make damage tracking only occur when a player has the retaliation buff
+5) Create retaliation damage class
