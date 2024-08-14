@@ -15,19 +15,28 @@ namespace Retaliation
 		{
 			private List<int[]> damageData = [];
 
+			// Add new damage set to damageData
 			public void AddDamageStats(int[] dmgStats)
 			{
 				damageData.Add(dmgStats);
 			}
+			// Return one set of damage stats (i.e. damage taken, potential damage taken, and the NPC index)
 			public int[] RetrieveDamageStats(int index)
 			{
 				return damageData[index];
 			}
+			// Return the entire list of damage stats (i.e. damage taken, potential damage taken, and the NPC index)
 			public List<int[]> RetrieveAllDamageStats()
 			{
 				return damageData;
 			}
-			public void ClearDamageStats()
+			// Removes one set of damage stats
+			public void ClearDamageStats(int index)
+			{
+				damageData.RemoveAt(index);
+			}
+			// Clears the entire list of damage stats
+			public void ClearAllDamageStats()
 			{
 				damageData.Clear();
 			}
