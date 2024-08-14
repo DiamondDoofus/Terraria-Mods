@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7DGn/3ZCeYjz3r+AEvfwmQgsqkPbltxnR2eXaxSdFUoJoIBNykEgGJDaAMNEKSGRljbb8JbPRIgA+aKgVihO/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taekw\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Retaliation\\Retaliation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taekw\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
