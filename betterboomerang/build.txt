@@ -1,0 +1,3 @@
+displayName = The Better Boomerang Mod
+author = Diamond Doofus
+version = 0.1

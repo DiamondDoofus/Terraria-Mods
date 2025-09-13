@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YYe8XHIAYzN2L9LfqQiV2fHGxTfyu/kxuEXPmkUzqpCl7a9dCA/TlQ5353QnwHVJMWitadlvvQ57NcwbdvjFuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taekw\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\betterboomerang\\betterboomerang.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taekw\\.nuget\\packages\\tmodloader.codeassist\\0.1.2\\tmodloader.codeassist.0.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
